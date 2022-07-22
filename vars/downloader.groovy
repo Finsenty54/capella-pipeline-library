@@ -97,7 +97,7 @@ def downloadTemurinJDK17(jdkFolder, os) {
             return;
     }
     
-    sh "curl -L -k -o ${jdkArchive} ${jdkURL}"
+//     sh "curl -L -k -o ${jdkArchive} ${jdkURL}"
     sh "ls -la ${jdkArchive}"
     
     switch (os) {
