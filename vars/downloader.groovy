@@ -100,7 +100,7 @@ def downloadTemurinJDK17(jdkFolder, os) {
 	
 //     sh "curl -L -k -o ${jdkArchive} ${jdkURL}"
     // get from local position
-    sh "cp /home/zentrei/Documents/${jdkArchive} ./"
+//     sh "cp /home/zentrei/Documents/${jdkArchive} ./"
     sh "ls -la ${jdkArchive}"
     
     switch (os) {
